@@ -42,7 +42,7 @@ export default class App extends Component {
           Voce escolheu: {this.state.pizzas[this.state.pizza].nome}
         </Text>
         <Text style={styles.pizzas}>
-          R$:{this.state.pizzas[this.state.pizza].valor.toFixed(2)}{" "}
+          R$:{this.state.pizzas[this.state.pizza].valor.toFixed(2)}
         </Text>
       </View>
     );
